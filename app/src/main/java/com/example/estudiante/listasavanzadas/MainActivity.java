@@ -28,7 +28,13 @@ public class MainActivity extends AppCompatActivity {
 
         Noticia noticia1=
                 new Noticia ("Hoy es diseño", "Va a haber un cambio en el logo de hoy es diseño","12/31/2018");
+
+        Noticia noticia2=
+                new Noticia ("Titulo", "Va a haber un cambio en el logo de hoy es diseño","12/31/2018");
+
+
 customAdapter.agregarNoticia(noticia1);
+        customAdapter.agregarNoticia(noticia2);
 
 lv_noticias.setOnItemClickListener(new AdapterView.OnItemClickListener() {
     @Override
